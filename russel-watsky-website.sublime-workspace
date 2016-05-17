@@ -1,0 +1,820 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"max",
+				"max-width:   (property)"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"d",
+				"dotted"
+			],
+			[
+				"bo",
+				"border-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"sort",
+				"sortOrder"
+			],
+			[
+				"car",
+				"career"
+			],
+			[
+				"caree",
+				"careerKey"
+			],
+			[
+				"ad",
+				"address2"
+			],
+			[
+				"add",
+				"address1"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"firm",
+				"firminfo"
+			],
+			[
+				"fi",
+				"firmInfo"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"R",
+				"Route"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"hello",
+				"hellotext"
+			],
+			[
+				"arch",
+				"Architect"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"this",
+				"thisVideo"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"ea",
+				"each"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"s",
+				"soldout"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"le",
+				"letter-spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ra",
+		"selected_items":
+		[
+			[
+				"ra",
+				"Raw Line Edit: Toggle"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Channel"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Tidy CSS"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"r",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"s",
+				"Shopify: Edit asset"
+			],
+			[
+				"sh",
+				"Shopify: Edit asset"
+			],
+			[
+				"sho",
+				"Shopify: Edit store information"
+			],
+			[
+				"ed",
+				"Shopify: Edit asset"
+			],
+			[
+				"sw",
+				"Shopify: Switch theme"
+			],
+			[
+				"e",
+				"Shopify: Edit asset"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"CSS",
+				"Csslisible : Run"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 453.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jjakk/Dropbox/omfactory/account-pass.text",
+		"/C/Users/jjakk/Dropbox/omfactory/301-redirects/redirect/redirect.go",
+		"/C/Users/jjakk/Dropbox/omfactory/Sheet1.html",
+		"/C/Users/jjakk/Dropbox/omfactory/untitled.txt",
+		"/C/Users/jjakk/Desktop/uiuiuiuiui",
+		"/C/Users/jjakk/Dropbox/omfactory/301-redirects/app.yaml",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2013-01-02_aerial-circus.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_counter/googlee76325c28773bdd5/index.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/googlee76325c28773bdd5.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-16_AcroYoga-101.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-10_Silks-101.html",
+		"/C/Users/jjakk/Desktop/MigrationUserErrorReport-tameka@omfactory.yoga-Thursday__March_24__2016_at_11-08-26_AM_Pacific_Daylight_Time.csv",
+		"/C/Users/jjakk/Desktop/www-carelafoods-com-test-03-19-jess/layout/theme.liquid",
+		"/C/Users/jjakk/Desktop/Timber-2.1.6/layout/theme.liquid",
+		"/C/Users/jjakk/Desktop/www-carelafoods-com-test-03-19-jess/templates/page.JoinCARELA.liquid",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-03_Love-your-lines.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-24_Lyra-101.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-10_Solar-Immersion.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-20_10th-Anniversary-Kirtan.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-20_10th-Anniversary-Party.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-15_Aerial-Teacher-Training-Spring.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/HanoiAYTT.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/AerialYogaTT.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/site/_content/posts/events/2016-03-26_Aerial-Vinyasa-Teacher-Training.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/site/_content/templates/menu/be-a-teacher/index.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/life/2015-03-10_Omfactory-trip-southern-india.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/life/2016-03-01_Omfactory-trip-southern-india.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-23_Aerial-Performance-Act.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-14_Aerial-Performance-Act.UPDATE",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-07_Aerial-Performance-Act.UPDATE",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-19_AcroYoga-101.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-20_Aerial-Silks-101.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-07_Roll-Model-Method.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-04-13_kevin-bigger.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-03-20_constanza-roldan.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-04-13_kristina-cubrilo.html",
+		"/C/Users/jjakk/Dropbox/omfactory/shared_templates/menu/meet-us/index.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-03-25_linda-mittel.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-03-25_cassandra-joy.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-03-25_nolan-mckew.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-07-31_helene-kerherve.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2016-02-12_aerial-yoga.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2013-01-06_budokon-yoga.html",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/RawLineEdit/raw_line_edit.sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/raw_line_edit.sublime-settings",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2013-02-01_aerial-yoga.html",
+		"/C/Users/jjakk/Dropbox/omfactory/shared_templates/menu/be-a-teacher/index.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-06-20_Aerial-Vinyasa-Teacher-Training.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/avtt250.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/aerial.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/avtt.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/cys.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/ofsy.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omf.me/site/all/css/style.css",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/ofsy.html",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-bake.bat",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-clean.bat",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-serve.bat",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/do-bake.bat",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/do-clean.bat",
+		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/do-serve.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-20_Yoga-TuneUp-Shoulder-Integration.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-17_Yoga-TuneUp-Core-Integration.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-28_InnerHarmony.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-04_anatomy-of-relationships.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-01_anatomy-of-relationships.UPDATE",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-19_TheWayYouMove.UPDATE",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-07_Roll-Model-Method.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-12_MarchMadness.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-11_Step-Into-Your-Greatness.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-28_Splits-Splits.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-21_Silks101.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-20_AcroYoga101.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/site/_content/pages/m.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/do-clean.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/do-serve.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/do-clean.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/do-bake.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/do-bake.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/do-serve.bat",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/ilsan-schedule.html",
+		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/site/_content/templates/menu/take-a-class/index.html",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/config.yml",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/posts/events/2016-02-26_aerial-dance-circus.html",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-bake.cmd",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-clean.cmd",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-serve.cmd",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-bake.bat",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-clean.bat",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-bake.cmd",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-serve.cmd",
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/templates/menu/take-a-class/index.html",
+		"/C/Users/jjakk/OneDrive/Work/Carela/Website/checkout-module.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-20_Inversions.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-05-14_TheWayYouMove.UPDATE",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-04-30_TheWayYouMove.UPDATE",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-04-16_TheWayYouMove.UPDATE",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-03-19_TheWayYouMove.UPDATE",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-03-05_TheWayYouMove.UPDATE",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-20_TheWayYouMove.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-13_valentine-aerial-yoga.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-03-20_10thAnniversaryChallenge.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/templates/menu/be-a-teacher/index.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/events/2016-02-28_kids-aerial-teacher-training.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/events/2016-01-31_aerial-vinyasa-teacher-training.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-14_valentine-acroyoga.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-14_valen-thai-day.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_agnes.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_ameera.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_durga.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_hyangmi.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_jooyoung.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_kamin.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_nir.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/teachers/2016-01-20_sooyeon.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/posts/events/2016-01-31_YogaWorksClass.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-01-24_AerialFlexibilityElasticity.html",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/templates/menu/take-a-class/schedule-ilsan.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactory.co.kr/site/_content/templates/menu/take-a-class/schedule-seoul.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-07_AerialPartnering101.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-01-17_TotalBodyTuneup.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-01-17_Fit2Fly.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-06_AerialPerformanceActCreation.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-01-30_MoveStrong101.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-01-22_Vinyasa-Teacher-Training-Winter2016.html",
+		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-01-10_AerialSilks101.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\jjakk\\Dropbox\\Work\\omfactory\\omfactory.co.kr\\site\\_content\\templates",
+			"<project>",
+			"J:\\Google Drive\\Work\\omf\\omf.me",
+			"J:\\Google Drive\\Work\\omf\\shared_templates",
+			"J:\\Google Drive\\Work\\omf\\shared_plugins",
+			"J:\\Google Drive\\Work\\omf\\shared_templates",
+			"J:\\Google Drive\\Work\\omf\\omfactorynyc.com",
+			"J:\\Google Drive\\Work\\omf\\omf.me\\site\\all\\lib",
+			"J:\\Google Drive\\Work\\omf\\omf.me\\site\\all\\lib\\royalslider",
+			"J:\\Google Drive\\Work\\omf\\omfactorynyc.com",
+			"J:\\Google Drive\\Work\\omf\\shared_templates"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"500",
+			"16",
+			"­",
+			"250",
+			"250-",
+			"250",
+			"schedule",
+			"phar",
+			" \n",
+			"header",
+			"extra",
+			"application fe",
+			"kevin bi",
+			"acrobatics prep",
+			"yoga-class-gallery",
+			"matrix",
+			"matrix-cells",
+			"510",
+			"meet",
+			"view",
+			"topeka",
+			"teachersGroupingProperty",
+			"loca",
+			"612",
+			"625",
+			"408",
+			"510",
+			"matrix",
+			"-",
+			"Silks Level 1",
+			"V:",
+			"lng",
+			"ver",
+			"schedule-table",
+			"jquery",
+			"boots",
+			"mobil",
+			"boots",
+			"bake",
+			"h3",
+			"modal",
+			"gra",
+			"flow-lay",
+			"filter",
+			"textEditor",
+			"ui-tinymce=\"editorDefault\"",
+			"setpanel",
+			"firm",
+			"Firm",
+			"firm",
+			"type=\"text\" ",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"Career",
+			"career",
+			"firminfo",
+			"Firm Information",
+			"FirmInfo",
+			"careerinfo",
+			"Firm Information",
+			"info",
+			"Info",
+			"info",
+			"user",
+			"career",
+			"\n",
+			"query",
+			"queryDict",
+			"data",
+			"firmI",
+			"[title=information]",
+			".active",
+			"skin",
+			"rul",
+			"example",
+			"title",
+			"description",
+			"example",
+			"Example",
+			"example",
+			"exa",
+			"bio",
+			"exa",
+			"ex",
+			"name",
+			"description",
+			"example",
+			"exa",
+			"white",
+			"last",
+			"<div class=\"articleSummary\">\n                                <a class=\"uiButton openSummary\"><img src=\"images/open.svg\"></a>\n                                <div class=\"summary\">\n                                    <h6 class=\"summaryHeading\">NOT Autumn/Winter 2012</h6>\n                                    <p>AW12 'Clothed Close' is a collection of garments without closures. Inspired by the overlap closure of a pillowcase, garments become self-contained, foreign objects which the body must manipulate its way into.</p>\n                                    <p>Photography: Christian Coleman<br>Makeup: Johanna Rollins<br>Model: Taryn Fujita<br>Styling: NOT<br>Hat: Heidi Lee x NOT</p>\n                                </div>\n                            </div>",
+			"<div class=\"summary\">\n                                <h6 class=\"summaryHeading\">Videos</h6>\n                                <p>This collection, titled \"Belonging,\" reinterprets the backpack as an extension of our bodies, with straps encased within our very clothing.</p>\n                                <p>How can we find freedom by carrying our belongings within us? Every privilege is a burden, every king a camel.</p>\n                                <p>Photographer: William Denatale<br>Hair/Makeup: Jennifer Kim<br>Model: Lily / Request</p>\n                            </div>",
+			"banner",
+			"z-",
+			"<nav class=\"videoControl\">\n                                <a class=\"videoPlay\"><img title=\"Play Video\" src=\"images/play.svg\"></a>\n                                <a class=\"videoPause\"><img title=\"Pause Video\" src=\"images/pause.svg\"></a>\n                                <a class=\"videoMute\"><img title=\"Mute Video\" src=\"images/sound.svg\"></a>\n                                <a class=\"videoUnmute\"><img title=\"Unmute Video\" src=\"images/mute.svg\"></a> \n                            </nav>",
+			"href=\"#\"",
+			"video",
+			"bx",
+			"#sol",
+			"sold",
+			"goog",
+			"ana",
+			"goog",
+			"impo",
+			"payment-m",
+			"#cre",
+			"#email",
+			".email",
+			".gro",
+			"form td i",
+			"form td.",
+			"form td input",
+			"form td.s",
+			".form ul.inline",
+			".form td.lb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-",
+			"dashview",
+			"hydro",
+			"V.",
+			"query",
+			"firmi"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-output":
+	{
+		"height": 100.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 378.0
+	},
+	"pinned_build_system": "",
+	"project": "russel-watsky-website.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\jjakk\\Dropbox\\Carela\\Code\\carela-app\\carela.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 350.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
