@@ -1,0 +1,10 @@
+application: russel-watsky-website
+module: server-side
+runtime: go
+api_version: go1
+version: 0
+
+handlers:
+- url: /.*
+  script: hello/_go_app
+  secure: always
