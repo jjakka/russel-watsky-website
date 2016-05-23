@@ -29,6 +29,8 @@ var packageJson = require('./package.json');
 var crypto = require('crypto');
 var ensureFiles = require('./tasks/ensure-files.js');
 
+var shell = require('gulp-shell');
+
 // var ghPages = require('gulp-gh-pages');
 
 var AUTOPREFIXER_BROWSERS = [
@@ -43,7 +45,7 @@ var AUTOPREFIXER_BROWSERS = [
   'bb >= 10'
 ];
 
-var DIST = 'dist';
+var DIST = '../static';
 
 var dist = function(subpath) {
   return !subpath ? DIST : path.join(DIST, subpath);
@@ -190,8 +192,9 @@ gulp.task('cache-config', function(callback) {
 });
 
 // Clean output directory
+// "force" Option - Allow deleting the current working directory and files/folders outside it.
 gulp.task('clean', function() {
-  return del(['.tmp', dist()]);
+  return del(['.tmp', dist()], {force: true});
 });
 
 // Watch files for changes & reload
@@ -276,6 +279,14 @@ gulp.task('deploy-gh-pages', function() {
       branch: 'gh-pages'
     }), $.ghPages()));
 });
+
+
+///////////////////////////////////////////////////////////////////////
+gulp.task('shorthand', shell.task([
+  'cd..',
+  'echo world'
+]));
+///////////////////////////////////////////////////////////////////////
 
 // Load tasks for web-component-tester
 // Adds tasks for `gulp test:local` and `gulp test:remote`

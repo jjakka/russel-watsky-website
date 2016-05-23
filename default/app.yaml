@@ -7,54 +7,8 @@ version: 0
 
 handlers:
 
-- url: /(.*\.html)
-  mime_type: text/html
-  static_files: static/\1
-  upload: static/(.*\.html)
-
-- url: /(.*\.css)
-  mime_type: text/css
-  static_files: \1
-  upload: (.*\.css)
-
-- url: /(.*\.js)
-  mime_type: text/javascript
-  static_files: \1
-  upload: (.*\.js)
-
-- url: /(.*\.json)
-  mime_type: application/json
-  static_files: \1
-  upload: (.*\.json)
-
-- url: /(.*\.(svg|svgz))
-  mime_type: image/svg+xml
-  static_files: \1
-  upload: (.*\.(svg|svgz))
-
-- url: /(.*\.woff)
-  mime_type: application/x-font-woff
-  static_files: \1
-  upload: (.*\.woff)
-
-- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
-  static_files: \1
-  upload: (.*\.(bmp|gif|ico|jpeg|jpg|png))
-
 - url: /(.*\.webp)
   mime_type: image/webp
-  static_files: \1
-  upload: (.*\.webp)
-
-- url: /(.*\.webm)
-  mime_type: video/webm
-  static_files: \1
-  upload: (.*\.webm)
-
-- url: /(.*\.mp4)
-  mime_type: video/mp4
-  static_files: \1
-  upload: (.*\.mp4)
 
 - url: /
   static_files: static/index.html
@@ -69,4 +23,4 @@ skip_files:
 - ^(.*/)?.*\.py[co]$
 - ^(.*/)?.*/RCS/.*$
 - ^(.*/)?\..*$
-- ^(.*/)?node_modules/.*
+- ^source$
