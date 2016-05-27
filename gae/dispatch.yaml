@@ -2,7 +2,7 @@ application: russel-watsky-website
 
 dispatch:
   - url: "*/api/*"
-    module: server-side
+    module: api-service
 
   - url: "*/*"
     module: default

@@ -1,5 +1,5 @@
 application: russel-watsky-website
-module: server-side
+module: api-service
 runtime: go
 api_version: go1
 version: 0
