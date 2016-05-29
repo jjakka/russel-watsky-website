@@ -279,20 +279,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "ra",
+		"height": 311.0,
+		"last_filter": "Package Control: i",
 		"selected_items":
 		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
 			[
 				"ra",
 				"Raw Line Edit: Toggle"
 			],
 			[
 				"Package Control:",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: i",
 				"Package Control: Install Package"
 			],
 			[
@@ -407,11 +407,23 @@
 	"expanded_folders":
 	[
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/default-static"
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/src"
 	],
 	"file_history":
 	[
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/index.html",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/default/app.yaml",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/deploy.cmd",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/default/.gitignore",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/default-static/.gitignore",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/dispatch.yaml",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/default-static/app.yaml",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/api-service/app.yaml",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/README.md",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/polymer-starter-kit/gulpfile.js",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/app/index.html",
@@ -526,20 +538,7 @@
 		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/config.yml",
 		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/posts/events/2016-02-26_aerial-dance-circus.html",
 		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-bake.cmd",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-clean.cmd",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-serve.cmd",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-bake.bat",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-clean.bat",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-bake.cmd",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/do-serve.cmd",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/templates/menu/take-a-class/index.html",
-		"/C/Users/jjakk/OneDrive/Work/Carela/Website/checkout-module.html",
-		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-02-20_Inversions.html",
-		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-05-14_TheWayYouMove.UPDATE",
-		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-04-30_TheWayYouMove.UPDATE",
-		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-04-16_TheWayYouMove.UPDATE",
-		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-03-19_TheWayYouMove.UPDATE",
-		"/C/Users/jjakk/OneDrive/Work/omf/omfactorynyc.com/site/_content/posts/events/2016-03-05_TheWayYouMove.UPDATE"
+		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-clean.cmd"
 	],
 	"find":
 	{
@@ -568,6 +567,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"static/",
 			"elemen",
 			"$",
 			"path",
@@ -694,8 +694,7 @@
 			"payment-m",
 			"#cre",
 			"#email",
-			".email",
-			".gro"
+			".email"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -822,7 +821,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

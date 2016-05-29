@@ -1,0 +1,64 @@
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/font-roboto/roboto.html">
+<link rel="import" href="../bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
+<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
+<link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<dom-module id="watsky-app">
+    <template>
+        <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', 'Noto', sans-serif;
+            background-color: #eee;
+        }
+
+        app-drawer {
+            --app-drawer-width: 50vw;
+            --app-drawer-scrim-background: rgba(0, 0, 0, 0.5);
+            --app-drawer-content-container: {
+                background-color: #B0BEC5;
+            }
+        }
+
+        app-toolbar {
+            background-color: #4285f4;
+            color: #fff;
+        }
+        </style>
+        <app-drawer align="end" opened="{{drawerOpened}}">
+            <app-toolbar>Getting Started</app-toolbar>
+        </app-drawer>
+        <app-header-layout>
+            <app-header>
+                <app-toolbar>
+                <div title>Title</div>
+                    <paper-icon-button icon="menu" on-tap="_toggleDrawer"></paper-icon-button>
+
+                </app-toolbar>
+            </app-header>
+            <div>Content goes here</div>
+        </app-header-layout>
+    </template>
+    <script>
+    Polymer({
+        is: 'watsky-app',
+
+        properties: {
+            drawerOpened: {
+                type: Boolean,
+                value: false
+            }
+        },
+        _toggleDrawer: function() {
+            this.drawerOpened = !this.drawerOpened;
+        },
+
+
+
+    });
+    </script>
+</dom-module>
