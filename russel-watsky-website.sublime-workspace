@@ -271,6 +271,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
+			"settings":
+			{
+				"buffer_size": 5432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header-layout/app-header-layout.html",
+			"settings":
+			{
+				"buffer_size": 5927,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects-behavior.html",
+			"settings":
+			{
+				"buffer_size": 10954,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html",
+			"settings":
+			{
+				"buffer_size": 900,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects/parallax-background.html",
+			"settings":
+			{
+				"buffer_size": 1840,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -406,16 +446,50 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/src"
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/src"
 	],
 	"file_history":
 	[
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/src/my-icons.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/elements/watsky-app.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-toolbar/app-toolbar.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/app-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/src/shop-app.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/demo/simple-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/demo/right-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/demo/left-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/components/app-header-layout.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower.json",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/README.md",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-header-layout/app-header-layout.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/test/shop-home.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/bower.json",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/demo/two-drawers.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/index.html",
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/test/app-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/demo/index.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/README.md",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/demo/demo1.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/demo/demo2.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/demo/demo3.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/demo/demo4.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/demo/contacts.json",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/polymer.json",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower.json",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/images/logo-05.svg",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/images/logo.svg",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/src/watsky-app.html",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
 		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/default/app.yaml",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/gae/deploy.cmd",
@@ -428,7 +502,6 @@
 		"/C/Users/jjakk/Dropbox/Watsky/Code/polymer-starter-kit/gulpfile.js",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/app/index.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/app/elements/elements.html",
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/app/styles/shared-styles.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/app/styles/app-theme.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/app/styles/main.css",
@@ -436,7 +509,6 @@
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/bower.json",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/app.yaml",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/package.json",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/src/shop-app.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/index.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/mimetypes.yaml",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/default/source/gulpfile.js",
@@ -510,35 +582,7 @@
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/ofsy.html",
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-bake.bat",
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-clean.bat",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-serve.bat",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/do-bake.bat",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/do-clean.bat",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactory.co.kr/do-serve.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-20_Yoga-TuneUp-Shoulder-Integration.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-17_Yoga-TuneUp-Core-Integration.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-28_InnerHarmony.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-04_anatomy-of-relationships.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-04-01_anatomy-of-relationships.UPDATE",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-19_TheWayYouMove.UPDATE",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-07_Roll-Model-Method.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-12_MarchMadness.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-11_Step-Into-Your-Greatness.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-28_Splits-Splits.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-21_Silks101.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/site/_content/posts/events/2016-02-20_AcroYoga101.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/site/_content/pages/m.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/do-clean.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/do-serve.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/do-clean.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactorynyc.com/do-bake.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/do-bake.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/do-serve.bat",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/ilsan-schedule.html",
-		"/C/Users/jjakk/Dropbox/Work/omfactory/omfactory.co.kr/site/_content/templates/menu/take-a-class/index.html",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/config.yml",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactory.co.kr/site/_content/posts/events/2016-02-26_aerial-dance-circus.html",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-bake.cmd",
-		"/C/Users/jjakk/Dropbox/Work/omf/omfactorynyc.com/do-clean.cmd"
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-serve.bat"
 	],
 	"find":
 	{
@@ -567,6 +611,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"resiz",
+			"iron",
+			"opened",
+			"open",
+			"opened",
+			"width",
+			"narrow",
+			"toggl",
+			"app-drawer-layout",
+			"side bar",
+			"left-bar-item",
+			"shop-app",
+			"app-primary-color",
+			"shop",
+			"shop-app",
 			"static/",
 			"elemen",
 			"$",
@@ -679,22 +738,7 @@
 			"last",
 			"<div class=\"articleSummary\">\n                                <a class=\"uiButton openSummary\"><img src=\"images/open.svg\"></a>\n                                <div class=\"summary\">\n                                    <h6 class=\"summaryHeading\">NOT Autumn/Winter 2012</h6>\n                                    <p>AW12 'Clothed Close' is a collection of garments without closures. Inspired by the overlap closure of a pillowcase, garments become self-contained, foreign objects which the body must manipulate its way into.</p>\n                                    <p>Photography: Christian Coleman<br>Makeup: Johanna Rollins<br>Model: Taryn Fujita<br>Styling: NOT<br>Hat: Heidi Lee x NOT</p>\n                                </div>\n                            </div>",
 			"<div class=\"summary\">\n                                <h6 class=\"summaryHeading\">Videos</h6>\n                                <p>This collection, titled \"Belonging,\" reinterprets the backpack as an extension of our bodies, with straps encased within our very clothing.</p>\n                                <p>How can we find freedom by carrying our belongings within us? Every privilege is a burden, every king a camel.</p>\n                                <p>Photographer: William Denatale<br>Hair/Makeup: Jennifer Kim<br>Model: Lily / Request</p>\n                            </div>",
-			"banner",
-			"z-",
-			"<nav class=\"videoControl\">\n                                <a class=\"videoPlay\"><img title=\"Play Video\" src=\"images/play.svg\"></a>\n                                <a class=\"videoPause\"><img title=\"Pause Video\" src=\"images/pause.svg\"></a>\n                                <a class=\"videoMute\"><img title=\"Mute Video\" src=\"images/sound.svg\"></a>\n                                <a class=\"videoUnmute\"><img title=\"Unmute Video\" src=\"images/mute.svg\"></a> \n                            </nav>",
-			"href=\"#\"",
-			"video",
-			"bx",
-			"#sol",
-			"sold",
-			"goog",
-			"ana",
-			"goog",
-			"impo",
-			"payment-m",
-			"#cre",
-			"#email",
-			".email"
+			"banner"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -702,6 +746,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"watsky-app",
+			"right-bar-item",
+			"watsky-app",
 			"static",
 			"-",
 			"dashview",
@@ -719,8 +766,453 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5166,
+								5166
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header-layout/app-header-layout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1545.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects-behavior.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects/parallax-background.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -757,7 +1249,7 @@
 		"cols":
 		[
 			0.0,
-			0.491556091677,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -821,7 +1313,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
