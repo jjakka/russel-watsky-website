@@ -4,8 +4,52 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
 				"mar",
-				"margin-left"
+				"margin"
+			],
+			[
+				"rga",
+				"rgb(〔value〕"
+			],
+			[
+				"h",
+				"height"
 			],
 			[
 				"wi",
@@ -20,10 +64,6 @@
 				"i	Tag"
 			],
 			[
-				"h",
-				"href	Attr"
-			],
-			[
 				"te",
 				"text-align"
 			],
@@ -34,10 +74,6 @@
 			[
 				"st",
 				"strong	Tag"
-			],
-			[
-				"a",
-				"a	<a>"
 			],
 			[
 				"max",
@@ -60,28 +96,12 @@
 				"input"
 			],
 			[
-				"ma",
-				"margin-top"
-			],
-			[
 				"margin",
 				"margin-top"
 			],
 			[
 				"l",
 				"left"
-			],
-			[
-				"ba",
-				"background-repeat"
-			],
-			[
-				"fo",
-				"font-size"
-			],
-			[
-				"b",
-				"border"
 			],
 			[
 				"bor",
@@ -98,10 +118,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"bac",
-				"background-image"
 			],
 			[
 				"font",
@@ -256,10 +272,6 @@
 				"overflow"
 			],
 			[
-				"di",
-				"display"
-			],
-			[
 				"la",
 				"last-child"
 			],
@@ -272,42 +284,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
+			"file": "client/elements/watsky-app.html",
 			"settings":
 			{
-				"buffer_size": 5432,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header-layout/app-header-layout.html",
-			"settings":
-			{
-				"buffer_size": 5927,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects-behavior.html",
-			"settings":
-			{
-				"buffer_size": 10954,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html",
-			"settings":
-			{
-				"buffer_size": 900,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects/parallax-background.html",
-			"settings":
-			{
-				"buffer_size": 1840,
+				"buffer_size": 26618,
 				"line_ending": "Unix"
 			}
 		}
@@ -446,15 +426,33 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/src"
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/app-drawer",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-drawer-panel",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-tabs",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/polyshp"
 	],
 	"file_history":
 	[
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer/app-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header-layout/app-header-layout.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header/demo/contacts.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-toolbar/app-toolbar.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header/app-header.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-drawer-panel/paper-drawer-panel.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/index.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-tabs/paper-tabs.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/README.md",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/bower.json",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/roboto.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/app-drawer/app-drawer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects/parallax-background.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects-behavior.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/src/my-icons.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/elements/watsky-app.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-toolbar/app-toolbar.html",
@@ -469,9 +467,7 @@
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/README.md",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-header-layout/app-header-layout.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/test/shop-home.html",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/bower.json",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/demo/two-drawers.html",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/index.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/test/app-drawer.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/demo/index.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/README.md",
@@ -568,21 +564,7 @@
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-07-31_helene-kerherve.html",
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2016-02-12_aerial-yoga.html",
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2013-01-06_budokon-yoga.html",
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/RawLineEdit/raw_line_edit.sublime-settings",
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/User/raw_line_edit.sublime-settings",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2013-02-01_aerial-yoga.html",
-		"/C/Users/jjakk/Dropbox/omfactory/shared_templates/menu/be-a-teacher/index.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-06-20_Aerial-Vinyasa-Teacher-Training.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/avtt250.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/aerial.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/avtt.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/cys.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/apply/ofsy.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omf.me/site/all/css/style.css",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/pages/ofsy.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-bake.bat",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-clean.bat",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/do-serve.bat"
+		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/RawLineEdit/raw_line_edit.sublime-settings"
 	],
 	"find":
 	{
@@ -611,6 +593,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"condensed-t",
+			"64px",
+			"fixed",
+			"64",
 			"resiz",
 			"iron",
 			"opened",
@@ -734,11 +720,7 @@
 			"description",
 			"example",
 			"exa",
-			"white",
-			"last",
-			"<div class=\"articleSummary\">\n                                <a class=\"uiButton openSummary\"><img src=\"images/open.svg\"></a>\n                                <div class=\"summary\">\n                                    <h6 class=\"summaryHeading\">NOT Autumn/Winter 2012</h6>\n                                    <p>AW12 'Clothed Close' is a collection of garments without closures. Inspired by the overlap closure of a pillowcase, garments become self-contained, foreign objects which the body must manipulate its way into.</p>\n                                    <p>Photography: Christian Coleman<br>Makeup: Johanna Rollins<br>Model: Taryn Fujita<br>Styling: NOT<br>Hat: Heidi Lee x NOT</p>\n                                </div>\n                            </div>",
-			"<div class=\"summary\">\n                                <h6 class=\"summaryHeading\">Videos</h6>\n                                <p>This collection, titled \"Belonging,\" reinterprets the backpack as an extension of our bodies, with straps encased within our very clothing.</p>\n                                <p>How can we find freedom by carrying our belongings within us? Every privilege is a burden, every king a camel.</p>\n                                <p>Photographer: William Denatale<br>Hair/Makeup: Jennifer Kim<br>Model: Lily / Request</p>\n                            </div>",
-			"banner"
+			"white"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -766,24 +748,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
+					"file": "client/elements/watsky-app.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5432,
+						"buffer_size": 26618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5166,
-								5166
+								1544,
+								1544
 							]
 						],
 						"settings":
@@ -792,432 +779,73 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header-layout/app-header-layout.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5927,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_curly_content"
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1545.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects-behavior.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10954,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 900,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects/parallax-background.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1840,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -1313,7 +941,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
