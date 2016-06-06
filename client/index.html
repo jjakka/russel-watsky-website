@@ -10,12 +10,16 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="import" href="/elements/watsky-app.html" async>
     <style>
-    body {
+    * {
         margin: 0;
-        min-height: 100vh;
-        background: red;
+        padding: 0;
+        border: none;
     }
-    /* styling for render while resources are loading */
+
+    :root {
+        min-height: 100vh;
+        font-size: 20px;
+    }
 
     shop-app[unresolved] {
         display: block;
@@ -29,6 +33,8 @@
         padding: 0 16px;
         overflow: visible;
     }
+
+
     </style>
 </head>
 

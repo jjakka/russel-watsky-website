@@ -3,7 +3,7 @@
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
-<link rel="import" href="../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
 <link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
@@ -13,72 +13,87 @@
     <template>
         <style>
         :host {
-            margin: 0;
             font-family: 'Open Sans', sans-serif;
-            font-size: 13px;
+            font-size: 1rem;
             line-height: 1.5;
-            background-color: #eee;
         }
 
-        app-drawer {
-            top: 90px;
-            --app-drawer-width: 50vw;
-            --app-drawer-scrim-background: rgba(0, 0, 0, 0.5);
-            --app-drawer-content-container: {
-                background-color: #B0BEC5;
-                padding-top: 0px;
-            }
-        }
-
-
-
-        app-header {}
-
-        app-toolbar.main {
+        app-toolbar {
             background-color: rgb(51, 55, 69);
-            color: #fff;
-            height: 90px;
-            padding: 0px;
-            margin: 0px;
+            height: 3rem;
+            padding: 0;
         }
 
         .logo {
+            flex-grow: 1;
+            height: 100%;
+        }
+
+        .logo img {
             background-color: rgb(51, 55, 69);
-            width: 270px;
-            height: 90px;
+            height: 100%;
+            width: auto;
+            margin-right: auto;
         }
 
         paper-icon-button {
-            margin-left: auto;
-            margin-right: 15px;
-            width: 60px;
+            width: 2rem;
             height: auto;
+            margin: 1rem;
             color: rgb(246, 247, 146);
         }
 
         paper-tabs {
-            font-size: 18px;
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-weight: 700;
             flex-grow: 1;
-            color: rgb(51, 55, 69);
             --paper-tabs-selection-bar-color: rgb(51, 55, 69);
-            ;
+        }
+
+        paper-tab {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: rgb(51, 55, 69);
+            --paper-tab-ink: red;
+        }
+
+        paper-tab.iron-selected {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        app-drawer {
+            top: 3rem;
+            --app-drawer-width: 300px;
+            --app-drawer-scrim-background: rgba(0, 0, 0, 0.5);
+            --app-drawer-content-container: {
+                padding-top: 0px;
+                background-color: rgb(246, 247, 146);
+            }
+        }
+
+        paper-menu {
+            --paper-menu-background-color: transparent;
+        }
+
+        paper-item {
+            text-transform: uppercase;
+            --paper-item: {
+                font-size: 1rem;
+                justify-content: flex-end;
+            }
         }
 
         @media screen and (min-width: 960px) {
             app-drawer {
                 display: none;
             }
-            app-header {}
-            app-toolbar.main {
+            app-toolbar {
                 height: 120px;
                 background: linear-gradient( transparent, transparent 30%, rgb(246, 247, 146) 30%, rgb(246, 247, 146) 70%, transparent 70%);
             }
             .logo {
-                width: 360px;
-                height: 120px;
-                margin-left: 60px;
+                flex-grow: initial;
+                margin-left: 1.5rem;
             }
             paper-icon-button {
                 display: none;
@@ -93,8 +108,9 @@
         </style>
         <app-header-layout>
             <app-header fixed>
-                <app-toolbar class="main">
-                    <iron-image class="logo" src="../images/logo.svg"></iron-image>
+                <app-toolbar>
+                    <div class="logo"><img src="../images/logo.svg"></img>
+                    </div>
                     <paper-icon-button icon="menu" on-tap="_toggleDrawer"></paper-icon-button>
                     <paper-tabs selected="0">
                         <paper-tab>About</paper-tab>

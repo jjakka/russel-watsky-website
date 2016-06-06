@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"pap",
+				"paper-tab"
+			],
+			[
+				"r",
+				"red"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"fl",
+				"flex-grow"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"j",
+				"text-justify: 〔property〕"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
 				"ba",
 				"background"
 			],
@@ -12,16 +56,8 @@
 				"div"
 			],
 			[
-				"fo",
-				"font-weight"
-			],
-			[
 				"border-",
 				"border-width"
-			],
-			[
-				"b",
-				"border"
 			],
 			[
 				"bac",
@@ -60,20 +96,12 @@
 				"target	Attr"
 			],
 			[
-				"i",
-				"i	Tag"
-			],
-			[
 				"te",
 				"text-align"
 			],
 			[
 				"p",
 				"p	Tag"
-			],
-			[
-				"st",
-				"strong	Tag"
 			],
 			[
 				"max",
@@ -86,10 +114,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"m",
-				"margin-top"
 			],
 			[
 				"in",
@@ -118,10 +142,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"backg",
@@ -220,10 +240,6 @@
 				"text-align"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"n",
 				"none"
 			],
@@ -246,10 +262,6 @@
 			[
 				"li",
 				"line-height"
-			],
-			[
-				"r",
-				"rgba()"
 			],
 			[
 				"border",
@@ -283,14 +295,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "client/elements/watsky-app.html",
-			"settings":
-			{
-				"buffer_size": 26618,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -428,15 +432,21 @@
 	[
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/app-drawer",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-drawer-panel",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-tabs",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/polyshp"
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/app-drawer"
 	],
 	"file_history":
 	[
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-tabs/paper-tab.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/index.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/elements/watsky-app.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-menu/demo/index.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-menu/paper-menu.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-styles/paper-styles.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/webcomponentsjs/webcomponents.js",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/polymer/polymer.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/polymer/polymer-mini.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/polymer/polymer-micro.html",
+		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/app-layout/index.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-drawer/app-drawer.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header-layout/app-header-layout.html",
@@ -444,7 +454,6 @@
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-toolbar/app-toolbar.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-header/app-header.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-drawer-panel/paper-drawer-panel.html",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/index.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/paper-tabs/paper-tabs.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/README.md",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/bower_components/font-roboto/bower.json",
@@ -454,7 +463,6 @@
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/effects/parallax-background.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/bower_components/app-layout/app-scroll-effects/app-scroll-effects-behavior.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/app-drawer/src/my-icons.html",
-		"/C/Users/jjakk/Dropbox/Watsky/Code/russel-watsky-website/client/elements/watsky-app.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-toolbar/app-toolbar.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html",
 		"/C/Users/jjakk/Dropbox/Watsky/Code/shop/bower_components/app-layout/app-drawer/app-drawer.html",
@@ -555,16 +563,7 @@
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-03-20_Aerial-Silks-101.html",
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/events/2016-05-07_Roll-Model-Method.html",
 		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-04-13_kevin-bigger.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-03-20_constanza-roldan.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-04-13_kristina-cubrilo.html",
-		"/C/Users/jjakk/Dropbox/omfactory/shared_templates/menu/meet-us/index.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-03-25_linda-mittel.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-03-25_cassandra-joy.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-03-25_nolan-mckew.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2014-07-31_helene-kerherve.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2016-02-12_aerial-yoga.html",
-		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/classes/2013-01-06_budokon-yoga.html",
-		"/C/Users/jjakk/AppData/Roaming/Sublime Text 3/Packages/RawLineEdit/raw_line_edit.sublime-settings"
+		"/C/Users/jjakk/Dropbox/omfactory/omfactorynyc.com/site/_content/posts/teachers/2012-03-20_constanza-roldan.html"
 	],
 	"find":
 	{
@@ -593,6 +592,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"avat",
 			"condensed-t",
 			"64px",
 			"fixed",
@@ -719,8 +719,7 @@
 			"name",
 			"description",
 			"example",
-			"exa",
-			"white"
+			"exa"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -753,99 +752,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client/elements/watsky-app.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1544,
-								1544
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -941,7 +849,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -949,7 +857,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 262.0,
+	"side_bar_width": 278.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
