@@ -1,9 +1,11 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
@@ -18,6 +20,19 @@
             font-size: 1rem;
             line-height: 1.5;
         }
+
+        app-header-layout {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+        }
+
         app-toolbar {
             background-color: rgb(51, 55, 69);
             height: 3rem;
@@ -89,12 +104,16 @@
             }
         }
 
-
-        iron-image{
-
-            width: 100vw;
-            height: 100vh;
+        img {
+            width: 100%;
+            height: auto;
         }
+
+        #main-content {
+            height: 100%;
+            @apply(--layout-vertical);
+        }
+
 
         @media screen and (min-width: 960px) {
             app-drawer {
@@ -122,8 +141,8 @@
             }
         }
         </style>
-        <app-header-layout>
-            <app-header fixed>
+        <app-header-layout has-scrolling-region>
+            <app-header>
                 <app-toolbar>
                     <div class="logo"><img src="../images/logo.svg"></img>
                     </div>
@@ -138,8 +157,8 @@
                     </paper-tabs>
                 </app-toolbar>
             </app-header>
-            <div id="main-content">
-                <iron-image sizing="cover" src="../images/banner.jpg"></iron-image>
+            <div id="main-content" class="">
+                <img src="../images/banner.jpg"></img>
             </div>
         </app-header-layout>
         <app-drawer align="end" opened="{{drawerOpened}}">
