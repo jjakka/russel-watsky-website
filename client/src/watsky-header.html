@@ -1,0 +1,109 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<dom-module id="watsky-header">
+    <template>
+        <style>
+        app-toolbar {
+            background-color: rgb(51, 55, 69);
+            height: 3rem;
+            padding: 0;
+        }
+
+        .logo {
+            flex-grow: 1;
+            height: 100%;
+        }
+
+        .logo img {
+            background-color: rgb(51, 55, 69);
+            height: 100%;
+            width: auto;
+            margin-right: auto;
+        }
+
+        paper-icon-button {
+            width: 2rem;
+            height: auto;
+            margin: 1rem;
+            color: rgb(246, 247, 146);
+        }
+
+        paper-tabs {
+            flex-grow: 1;
+            --paper-tabs-selection-bar-color: rgb(51, 55, 69);
+        }
+
+        paper-tab {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: rgb(51, 55, 69);
+            --paper-tab-ink: red;
+        }
+
+        paper-tab.iron-selected {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        @media screen and (min-width: 960px) {
+            app-toolbar {
+                height: 120px;
+                background: linear-gradient( transparent, transparent 30%, rgb(246, 247, 146) 30%, rgb(246, 247, 146) 70%, transparent 70%);
+            }
+            .logo {
+                flex-grow: initial;
+                margin-left: 1.5rem;
+            }
+            paper-icon-button {
+                display: none;
+            }
+            #main-content {
+                margin-top: -120px;
+            }
+        }
+
+        @media screen and (max-width: 960px) {
+            paper-tabs {
+                display: none;
+            }
+        }
+        </style>
+        <app-header>
+            <app-toolbar>
+                <div class="logo"><img src="../images/logo.svg"></img>
+                </div>
+                <paper-icon-button icon="menu" on-tap="toggleDrawer"></paper-icon-button>
+                <paper-tabs>
+                    <paper-tab>About</paper-tab>
+                    <paper-tab>Services</paper-tab>
+                    <paper-tab>Projects</paper-tab>
+                    <paper-tab>Testimonials</paper-tab>
+                    <paper-tab>Contact</paper-tab>
+                    <paper-tab>Resources</paper-tab>
+                </paper-tabs>
+            </app-toolbar>
+        </app-header>
+    </template>
+    <script>
+    Polymer({
+        is: 'watsky-header',
+        properties: {
+            drawerActive: {
+                type: Boolean,
+                value: false,
+                notify: true
+            }
+        },
+        toggleDrawer: function() {
+
+            this.drawerActive = !this.drawerActive;
+        }
+    });
+    </script>
+</dom-module>

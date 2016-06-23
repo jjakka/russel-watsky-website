@@ -1,17 +1,17 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
 <link rel="import" href="../bower_components/polymer/polymer.html">
-<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
-<link rel="import" href="../bower_components/paper-menu/paper-menu.html">
-<link rel="import" href="../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../bower_components/iron-signals/iron-signals.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
-<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
 <link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
-<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
-<link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+
+<link rel="import" href="../src/watsky-header.html">
+<link rel="import" href="../src/watsky-drawer.html">
+
+
+
 <dom-module id="watsky-app">
     <template>
         <style>
@@ -33,48 +33,8 @@
             height: 100%;
         }
 
-        app-toolbar {
-            background-color: rgb(51, 55, 69);
-            height: 3rem;
-            padding: 0;
-        }
 
-        .logo {
-            flex-grow: 1;
-            height: 100%;
-        }
 
-        .logo img {
-            background-color: rgb(51, 55, 69);
-            height: 100%;
-            width: auto;
-            margin-right: auto;
-        }
-
-        paper-icon-button {
-            width: 2rem;
-            height: auto;
-            margin: 1rem;
-            color: rgb(246, 247, 146);
-        }
-
-        paper-tabs {
-            flex-grow: 1;
-            --paper-tabs-selection-bar-color: rgb(51, 55, 69);
-        }
-
-        paper-tab {
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-size: 1rem;
-            font-weight: 300;
-            text-transform: uppercase;
-            color: rgb(51, 55, 69);
-            --paper-tab-ink: red;
-        }
-
-        paper-tab.iron-selected {
-            font-family: 'Open Sans', sans-serif;
-        }
 
         app-drawer {
             top: 3rem;
@@ -109,25 +69,18 @@
             height: auto;
         }
 
+        .imgWrap {
+            width: 100%;
+            margin: 0 auto;
+        }
+
         #main-content {
             height: 100%;
             @apply(--layout-vertical);
         }
 
-
         @media screen and (min-width: 960px) {
             app-drawer {
-                display: none;
-            }
-            app-toolbar {
-                height: 120px;
-                background: linear-gradient( transparent, transparent 30%, rgb(246, 247, 146) 30%, rgb(246, 247, 146) 70%, transparent 70%);
-            }
-            .logo {
-                flex-grow: initial;
-                margin-left: 1.5rem;
-            }
-            paper-icon-button {
                 display: none;
             }
             #main-content {
@@ -142,52 +95,23 @@
         }
         </style>
         <app-header-layout has-scrolling-region>
-            <app-header>
-                <app-toolbar>
-                    <div class="logo"><img src="../images/logo.svg"></img>
-                    </div>
-                    <paper-icon-button icon="menu" on-tap="toggleDrawer"></paper-icon-button>
-                    <paper-tabs>
-                        <paper-tab>About</paper-tab>
-                        <paper-tab>Services</paper-tab>
-                        <paper-tab>Projects</paper-tab>
-                        <paper-tab>Testimonials</paper-tab>
-                        <paper-tab>Contact</paper-tab>
-                        <paper-tab>Resources</paper-tab>
-                    </paper-tabs>
-                </app-toolbar>
-            </app-header>
+            <watsky-header drawer-active="{{drawerState}}"></watsky-header>
             <div id="main-content" class="">
-                <img src="../images/banner.jpg"></img>
+                <div class="imgWrap"><img src="../images/banner.jpg"></img></div>
+
             </div>
+            <watsky-drawer drawer-opened="{{drawerState}}"></watsky-drawer>
         </app-header-layout>
-        <app-drawer align="end" opened="{{drawerOpened}}">
-            <paper-menu>
-                <paper-item>About</paper-item>
-                <paper-item>Services</paper-item>
-                <paper-item>Projects</paper-item>
-                <paper-item>Testimonials</paper-item>
-                <paper-item>Contact</paper-item>
-                <paper-item>Resources</paper-item>
-            </paper-menu>
-        </app-drawer>
+
     </template>
     <script>
     Polymer({
         is: 'watsky-app',
-
         properties: {
-            drawerOpened: {
-                type: Boolean,
-                value: false
+            drawerState: {
+                type: Boolean
             }
-        },
-        toggleDrawer: function() {
-            this.drawerOpened = !this.drawerOpened;
-        },
-
-
-
+        }
     });
     </script>
 </dom-module>
