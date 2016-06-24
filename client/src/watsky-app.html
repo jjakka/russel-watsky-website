@@ -1,17 +1,15 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
-
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-signals/iron-signals.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
-
+<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
+<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
 <link rel="import" href="../src/watsky-header.html">
 <link rel="import" href="../src/watsky-drawer.html">
-
-
-
+<link rel="import" href="../src/watsky-banner.html">
 <dom-module id="watsky-app">
     <template>
         <style>
@@ -33,9 +31,6 @@
             height: 100%;
         }
 
-
-
-
         app-drawer {
             top: 3rem;
             --app-drawer-width: 240px;
@@ -43,24 +38,6 @@
             --app-drawer-content-container: {
                 padding-top: 0px;
                 background-color: rgb(246, 247, 146);
-            }
-        }
-
-        paper-menu {
-            --paper-menu-background-color: transparent;
-            --paper-menu-color: rgb(51, 55, 69);
-            --paper-menu: {
-                font-size: 1rem;
-            }
-        }
-
-        paper-item {
-            text-transform: uppercase;
-            --paper-item: {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 1rem;
-                font-weight: 500;
-                justify-content: flex-end;
             }
         }
 
@@ -95,20 +72,24 @@
         }
         </style>
         <app-header-layout has-scrolling-region>
-            <watsky-header drawer-active="{{drawerState}}"></watsky-header>
+            <app-header>
+                <watsky-header drawer-active="{{drawer}}"></watsky-header>
+            </app-header>
             <div id="main-content" class="">
-                <div class="imgWrap"><img src="../images/banner.jpg"></img></div>
-
+                <div class="imgWrap"><img src="../images/banner.jpg"></img>
+                </div>
+                <watsky-banner></watsky-banner>
             </div>
-            <watsky-drawer drawer-opened="{{drawerState}}"></watsky-drawer>
+            <app-drawer align="end" opened="{{drawer}}">
+                <watsky-drawer></watsky-drawer>
+            </app-drawer>
         </app-header-layout>
-
     </template>
     <script>
     Polymer({
         is: 'watsky-app',
         properties: {
-            drawerState: {
+            drawer: {
                 type: Boolean
             }
         }

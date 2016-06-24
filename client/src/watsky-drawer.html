@@ -1,22 +1,9 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-menu/paper-menu.html">
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
-<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
-
 <dom-module id="watsky-drawer">
     <template>
         <style>
-
-        app-drawer {
-            top: 3rem;
-            --app-drawer-width: 240px;
-            --app-drawer-scrim-background: rgba(0, 0, 0, 0.5);
-            --app-drawer-content-container: {
-                padding-top: 0px;
-                background-color: rgb(246, 247, 146);
-            }
-        }
-
         paper-menu {
             --paper-menu-background-color: transparent;
             --paper-menu-color: rgb(51, 55, 69);
@@ -34,42 +21,19 @@
                 justify-content: flex-end;
             }
         }
-
-
-
-        @media screen and (min-width: 960px) {
-            app-drawer {
-                display: none;
-            }
-
-        }
-
-
         </style>
-
-        <app-drawer align="end" opened="{{drawerOpened}}">
-            <paper-menu>
-                <paper-item>About</paper-item>
-                <paper-item>Services</paper-item>
-                <paper-item>Projects</paper-item>
-                <paper-item>Testimonials</paper-item>
-                <paper-item>Contact</paper-item>
-                <paper-item>Resources</paper-item>
-            </paper-menu>
-        </app-drawer>
+        <paper-menu>
+            <paper-item>About</paper-item>
+            <paper-item>Services</paper-item>
+            <paper-item>Projects</paper-item>
+            <paper-item>Testimonials</paper-item>
+            <paper-item>Contact</paper-item>
+            <paper-item>Resources</paper-item>
+        </paper-menu>
     </template>
     <script>
     Polymer({
-        is: 'watsky-drawer',
-
-        properties: {
-            drawerOpened: {
-                type: Boolean,
-                value: false,
-                notify: true
-            }
-        }
-
+        is: 'watsky-drawer'
     });
     </script>
 </dom-module>

@@ -2,8 +2,6 @@
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
-<link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
-<link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
 <dom-module id="watsky-header">
     <template>
@@ -74,21 +72,19 @@
             }
         }
         </style>
-        <app-header>
-            <app-toolbar>
-                <div class="logo"><img src="../images/logo.svg"></img>
-                </div>
-                <paper-icon-button icon="menu" on-tap="toggleDrawer"></paper-icon-button>
-                <paper-tabs>
-                    <paper-tab>About</paper-tab>
-                    <paper-tab>Services</paper-tab>
-                    <paper-tab>Projects</paper-tab>
-                    <paper-tab>Testimonials</paper-tab>
-                    <paper-tab>Contact</paper-tab>
-                    <paper-tab>Resources</paper-tab>
-                </paper-tabs>
-            </app-toolbar>
-        </app-header>
+        <app-toolbar>
+            <div class="logo"><img src="../images/logo.svg"></img>
+            </div>
+            <paper-icon-button icon="menu" on-tap="toggleDrawer"></paper-icon-button>
+            <paper-tabs>
+                <paper-tab>About</paper-tab>
+                <paper-tab>Services</paper-tab>
+                <paper-tab>Projects</paper-tab>
+                <paper-tab>Testimonials</paper-tab>
+                <paper-tab>Contact</paper-tab>
+                <paper-tab>Resources</paper-tab>
+            </paper-tabs>
+        </app-toolbar>
     </template>
     <script>
     Polymer({
@@ -101,7 +97,6 @@
             }
         },
         toggleDrawer: function() {
-
             this.drawerActive = !this.drawerActive;
         }
     });
