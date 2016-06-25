@@ -1,23 +1,69 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
-
+<link rel="import" href="../bower_components/neon-animation/neon-animated-pages.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animatable.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animations.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
 <dom-module id="watsky-banner">
     <template>
         <style>
-        :host {
-
+        .toolbar {
+            position: relative;
+            padding: 8px;
+            background-color: white;
+            z-index: 12;
         }
 
+        neon-animated-pages {
+            @apply(--layout-flex);
+            height: 200px;
+        }
 
+        neon-animatable {
+            color: white;
+            @apply(--layout-horizontal);
+            @apply(--layout-center-center);
+            @apply(--paper-font-display4);
+        }
+
+        neon-animatable img {
+            width: 100px;
+            height: 100px;
+        }
         </style>
-
-
+        <div class="toolbar">
+            <button on-click="_onPrevClick">&#8678;</button>
+            <button on-click="_onNextClick">&#8680;</button>
+        </div>
+        <neon-animated-pages id="pages" selected="[[selected]]" entry-animation="[[entryAnimation]]" exit-animation="[[exitAnimation]]">
+            <neon-animatable><img src="../images/banner.jpg"></neon-animatable>
+            <neon-animatable><img src="../images/banner.jpg"></neon-animatable>
+            <neon-animatable><img src="../images/banner.jpg"></neon-animatable>
+            <neon-animatable><img src="../images/banner.jpg"></neon-animatable>
+            <neon-animatable><img src="../images/banner.jpg"></neon-animatable>
+        </neon-animated-pages>
     </template>
     <script>
     Polymer({
         is: 'watsky-banner',
         properties: {
-
+            selected: {
+                type: Number,
+                value: 0
+            }
+        },
+        _onPrevClick: function() {
+            this.entryAnimation = 'slide-from-left-animation';
+            this.exitAnimation = 'slide-right-animation';
+            this.selected = this.selected === 0 ? 4 : (this.selected - 1);
+        },
+        _onNextClick: function() {
+            this.entryAnimation = 'slide-from-right-animation';
+            this.exitAnimation = 'slide-left-animation';
+            this.selected = this.selected === 4 ? 0 : (this.selected + 1);
         }
     });
     </script>
 </dom-module>
+<!doctype html>
+<style>
+</style>
