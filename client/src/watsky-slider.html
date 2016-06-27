@@ -1,0 +1,90 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animated-pages.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animatable.html">
+<link rel="import" href="../bower_components/neon-animation/neon-animations.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<dom-module id="watsky-slider">
+    <template>
+        <style>
+        :host {
+            position: relative;
+        }
+
+        neon-animated-pages {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        neon-animatable iron-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        paper-icon-button {
+            color: rgb(246, 247, 146);
+            background-color: rgb(51, 55, 69);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            z-index: 100;
+        }
+
+        div.slider-controls {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        paper-icon-button.slide-prev {
+            left: 0;
+        }
+
+        paper-icon-button.slide-next {
+            right: 0;
+        }
+        </style>
+        <div class="slider-controls">
+            <paper-icon-button class="slide-prev" icon="chevron-left" on-tap="_onPrevClick"></paper-icon-button>
+            <paper-icon-button class="slide-next" icon="chevron-right" on-tap="_onNextClick"></paper-icon-button>
+        </div>
+        <neon-animated-pages id="pages" selected="[[selected]]" entry-animation="[[entryAnimation]]" exit-animation="[[exitAnimation]]">
+            <template is="dom-repeat" items="{{slides}}">
+                <neon-animatable>
+                    <iron-image sizing="cover" src="{{item}}"></iron-image>
+                </neon-animatable>
+            </template>
+        </neon-animated-pages>
+    </template>
+    <script>
+    Polymer({
+        is: 'watsky-slider',
+        properties: {
+            selected: {
+                type: Number,
+                value: 0
+            },
+            slides: {
+                type: Array,
+                value: [],
+                notify: true,
+            },
+        },
+        _onPrevClick: function() {
+            this.entryAnimation = 'slide-from-left-animation';
+            this.exitAnimation = 'slide-right-animation';
+            this.selected = this.selected === 0 ? (this.slides.length - 1) : (this.selected - 1);
+        },
+        _onNextClick: function() {
+            this.entryAnimation = 'slide-from-right-animation';
+            this.exitAnimation = 'slide-left-animation';
+            this.selected = this.selected === (this.slides.length - 1) ? 0 : (this.selected + 1);
+        }
+    });
+    </script>
+</dom-module>
