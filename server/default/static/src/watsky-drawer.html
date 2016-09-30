@@ -1,0 +1,39 @@
+<html><head><link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-menu/paper-menu.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
+
+<link rel="import" href="watsky-style.html">
+
+</head><body><dom-module id="watsky-drawer">
+    <template>
+        <style include="watsky-style">
+        paper-menu {
+            --paper-menu-background-color: transparent;
+            --paper-menu-color: rgb(51, 55, 69);
+            --paper-menu: {
+                font-size: 1rem;
+            }
+        }
+
+        paper-item {
+            text-transform: uppercase;
+            --paper-item: {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1rem;
+                font-weight: 500;
+                justify-content: flex-end;
+            }
+        }
+        </style>
+        <paper-menu>
+            <paper-item>About</paper-item>
+            <paper-item>Services</paper-item>
+            <paper-item>Projects</paper-item>
+            <paper-item>Testimonials</paper-item>
+            <paper-item>Contact</paper-item>
+            <paper-item>Resources</paper-item>
+        </paper-menu>
+    </template>
+    <script>Polymer({is:"watsky-drawer"});</script>
+</dom-module>
+</body></html>

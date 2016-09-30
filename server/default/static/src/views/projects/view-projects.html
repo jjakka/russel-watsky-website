@@ -1,0 +1,62 @@
+<html><head><link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../../../bower_components/paper-dialog-scrollable/paper-dialog-scrollable.html">
+<link rel="import" href="../../../bower_components/neon-animation/neon-animations.html">
+<link rel="import" href="../../watsky-aspectbox.html">
+<link rel="import" href="../../watsky-style.html">
+<link rel="import" href="../../watsky-slider.html">
+<link rel="import" href="project-detail.html">
+</head><body><dom-module id="view-projects">
+    <template>
+        <style include="watsky-style">
+        :host {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        #projectGrid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            align-content: flex-start;
+        }
+
+        #projectGrid watsky-aspectbox {
+            width: 300px;
+            --watsky-aspectbox-height-percent: 100%;
+            background: yellow;
+            margin: 5px;
+        }
+
+        iron-image {
+            width: 100%;
+            height: 75%;
+        }
+        </style>
+        <iron-ajax auto="" url="view-projects.json" handle-as="json" last-response="{{projects}}"></iron-ajax>
+        <div class="wrapper">
+            <div id="projectGrid">
+                <template is="dom-repeat" items="{{projects}}" indexas="projectIndex">
+                    <watsky-aspectbox on-tap="expandProject">
+                        <iron-image sizing="cover" src="{{item.slides.0}}"></iron-image>
+                        <h3>{{item.name}}</h3>
+                        <h3>{{item.type}}</h3>
+                    </watsky-aspectbox>
+                </template>
+            </div>
+        </div>
+        <paper-dialog id="projectDetail" entry-animation="scale-up-animation" exit-animation="fade-out-animation">
+            <h2>{{selectedProject.name}}</h2>
+            <watsky-aspectbox>
+                <watsky-slider slides="{{selectedProject.slides}}"></watsky-slider>
+            </watsky-aspectbox>
+        </paper-dialog>
+    </template>
+    <script>Polymer({is:"view-projects",properties:{projects:{type:Array,value:[{name:"",type:"",descMarkdown:"",slides:[""]}],notify:!0},selectedProject:{type:Object,value:{},notify:!0}},expandProject:function(e){this.selectedProject=e.model.item,this.$.projectDetail.open()}});</script>
+</dom-module>
+</body></html>

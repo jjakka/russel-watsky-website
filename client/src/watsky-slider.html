@@ -30,7 +30,7 @@
             top: 0;
             bottom: 0;
             margin: auto;
-            z-index: 100;
+            z-index: 10;
         }
 
         div.slider-controls {
@@ -53,7 +53,7 @@
             <paper-icon-button class="slide-prev" icon="chevron-left" on-tap="_onPrevClick"></paper-icon-button>
             <paper-icon-button class="slide-next" icon="chevron-right" on-tap="_onNextClick"></paper-icon-button>
         </div>
-        <neon-animated-pages id="pages" selected="[[selected]]" entry-animation="[[entryAnimation]]" exit-animation="[[exitAnimation]]">
+        <neon-animated-pages selected="[[selected]]" entry-animation="[[entryAnimation]]" exit-animation="[[exitAnimation]]">
             <template is="dom-repeat" items="{{slides}}">
                 <neon-animatable>
                     <iron-image sizing="cover" src="{{item}}"></iron-image>

@@ -3,9 +3,11 @@
 <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link rel="import" href="watsky-style.html">
+
 <dom-module id="watsky-header">
     <template>
-        <style>
+        <style include="watsky-style">
         app-toolbar {
             background-color: rgb(51, 55, 69);
             height: 3rem;
@@ -37,16 +39,17 @@
         }
 
         paper-tab {
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
             font-size: 1rem;
-            font-weight: 300;
             text-transform: uppercase;
             color: rgb(51, 55, 69);
             --paper-tab-ink: red;
         }
 
         paper-tab.iron-selected {
-            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
         }
 
         @media screen and (min-width: 960px) {
@@ -73,7 +76,7 @@
         }
         </style>
         <app-toolbar>
-            <div class="logo"><img src="../images/logo.svg"></img>
+            <div class="logo"><img src="logo.svg"></img>
             </div>
             <paper-icon-button icon="menu" on-tap="toggleDrawer"></paper-icon-button>
             <paper-tabs>
